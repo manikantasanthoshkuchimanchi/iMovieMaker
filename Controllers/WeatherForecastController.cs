@@ -21,6 +21,6 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public IActionResult Get()
     {
-        return Ok("Welcome to iMovieMaker");
+        return Ok("Welcome to iMovieMaker v2 again");
     }
 }
